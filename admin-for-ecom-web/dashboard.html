@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body onload="checkAuth()">
+  <div class="container">
+    <aside class="sidebar">
+      <h3>Admin Panel</h3>
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Users</a></li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="#" onclick="logout()">Logout</a></li>
+      </ul>
+    </aside>
+    <main class="main-content">
+      <h1>Welcome, Admin</h1>
+      <p>This is your admin dashboard. You can manage everything here.</p>
+    </main>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
