@@ -113,7 +113,7 @@ body {
     background-color: #F5F7FA;
     display: flex;
     min-height: 100vh;
-
+    
 }
 
 .header {
@@ -121,10 +121,9 @@ body {
     width: 100%;
     position: fixed;
     z-index: 10;
-
+    
 }
-
-nav h2 {
+nav h2{
     color: rgb(255, 255, 255);
 }
 
@@ -143,28 +142,8 @@ nav h2 {
     flex-direction: column;
     overflow-y: auto;
     margin-top: 63.4px;
-    background-color: #989b9dab;
-
+    background-color: #989b9dab
 }
-
-.sec {
-    position: fixed;
-    top: 23%;
-    right: 0;
-    transform: translateY(-50%); 
-    
-    width: 300px;
-    padding: 20px;
-    
-    display: flex;
-    flex-direction: column;
-    
-    background-color: #ffffff00;     /* Optional for visibility */
-    
-    
-   
-  }
-  
 
 h1,
 h2 {
@@ -249,7 +228,7 @@ h2 {
     object-fit: contain;
     margin-bottom: 10px;
     mix-blend-mode: multiply;
-
+   
 }
 
 
@@ -369,13 +348,13 @@ h2 {
 
 @media (max-width: 768px) {
     body {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; 
+        align-items: center; 
     }
 
     #main-content {
         width: 95%;
-        margin-top: 56px;
+        margin-top: 56px; 
         margin-right: 0;
     }
 
@@ -385,14 +364,14 @@ h2 {
         border-top: 1px solid #ccc;
         margin-top: 20px;
         margin-left: 0;
-        position: static;
+        position: static; 
         bottom: auto;
         right: auto;
     }
 
     #filters-container {
-        flex-direction: column;
-        align-items: stretch;
+        flex-direction: column; 
+        align-items: stretch; 
         gap: 10px;
     }
 
@@ -403,7 +382,7 @@ h2 {
     }
 
     #products-container {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
     }
 
     .cart-item {
@@ -417,7 +396,7 @@ h2 {
 
     #cart-total {
         text-align: center;
-        position: static;
+        position: static; 
         border-top: 1px solid #ccc;
         padding-top: 10px;
         margin-top: 20px;
@@ -429,12 +408,12 @@ h2 {
 
 @media (max-width: 480px) {
     #products-container {
-        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); 
     }
 
     .product-card h3 {
         font-size: 0.8em;
-        -webkit-line-clamp: 3;
+        -webkit-line-clamp: 3; 
         height: 3.3em;
     }
 }
